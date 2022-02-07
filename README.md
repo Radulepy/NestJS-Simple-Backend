@@ -43,7 +43,7 @@ $ npm run start:prod
 - `localhost:3000/products/{id}` GET: get product by ID available products
 - `localhost:3000/products` POST: add a new product with JSON object in Body: `{title: string, description: string, price: number}`
 - `localhost:3000/products/{id}` DELETE: delete product by ID 
-- `localhost:3000/products/{id}` PATCH: update product, with JSON object in Body (one/all): `{title: string, description: string, price: number}`
+- `localhost:3000/products/{id}` PATCH: update product, with JSON object in Body (any): `{title: string, description: string, price: number}`
 
 
 ## Test
